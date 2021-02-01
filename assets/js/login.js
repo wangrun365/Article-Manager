@@ -68,7 +68,7 @@ $(function() {
                 //将登录成功得到的token字符串，保存到localStorage中
                 localStorage.setItem('token', res.token)
                     //跳转到后台主页
-                location.href = 'http://127.0.0.1:5500/%E5%89%8D%E5%90%8E%E7%AB%AF%E4%BA%A4%E4%BA%92/Article%20Manager/index.html'
+                location.href = '/index.html'
             }
         })
     })
