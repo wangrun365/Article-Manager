@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        [v-cloak] {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <!-- 插值表达式 -->
+        <div>{{msg}}</div>
+        <div>{{1+2}}</div>
+        <div>{{msg + '......'+ 123}}}</div>
+    </div>
+    <script type="text/javascript" src="../js/vue.js"></script>
+    <script type="text/javascript">
+        // v-cloak指令的用法：
+        // 1、提供样式
+        // [v-cloak]{
+        //         display: none;
+        //     }
+        //     2、在插值表达式所在的标签中添加v-cloak指令
+        // Vue 的基本使用步骤
+        // 1、需要提供标签
+        // 2、引入vue.js库文件
+        // 3、可以使用vu能了
+        // 4、把vue提供的数据里面
+        var vm = new Vue({
+            el: '#app',
+            data: {
+                msg: 'Hello Vue'
+            }
+        });
+    </script>
+
+
+</html>

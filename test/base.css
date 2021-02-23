@@ -1,0 +1,95 @@
+li {
+  list-style: none;
+  float: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  width: 300px;
+  background-color: pink;
+}
+
+.menu1:hover {
+  color: white;
+  float: left;
+  padding: 3px 3px 0px 20px;
+  width: 88px;
+  text-decoration: none;
+  background-color: #539D26;
+}
+
+.menu2:hover {
+  color: white;
+  float: left;
+  padding: 3px 3px 0px 20px;
+  width: 88px;
+  text-decoration: none;
+  background-color: #539D26;
+}
+
+a:active {
+  color: white;
+  float: left;
+  padding: 3px 3px 0px 20px;
+  width: 88px;
+  text-decoration: none;
+  background-color: #BD06B4;
+}
+
+#nav {
+  width: 600px;
+  height: 30px;
+  border-bottom: 0px;
+  padding: 0px 5px;
+  position: absolute;
+  z-index: 1;
+  left: 198px;
+  top: 25px;
+}
+
+.list {
+  line-height: 20px;
+  text-align: left;
+  padding: 4px;
+  font-weight: normal;
+}
+
+.menu1 {
+  width: 120px;
+  height: auto;
+  margin: 6px 4px 0px 0px;
+  border: 1px solid #9CDD75;
+  background-color: #F1FBEC;
+  color: #336601;
+  padding: 6px 0px 0px 0px;
+  cursor: pointer;
+  ;
+  overflow-y: hidden;
+  filter: brightness(100%) opacity(100%);
+  position: relative;
+  left: 389px;
+  top: -871px;
+  float: left;
+}
+
+.menu2,
+.menu3 {
+  width: 160px;
+  height: 38px;
+  margin: -8px 2px 9px 0px;
+  background-color: #2a88c8;
+  color: #ffffff;
+  border: 1px solid #EEE8DD;
+  padding: 6px 0px 0px 0px;
+  overflow-y: hidden;
+  cursor: pointer;
+  position: relative;
+  left: 59px;
+  top: -951px;
+  float: left;
+}
+
+/*xxk end*/

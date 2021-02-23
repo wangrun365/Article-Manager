@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    line-height: 30px;
+}
+
+li {
+    list-style: none;
+    height: 30px;
+}
+
+.header {
+    width: 1000px;
+    margin: 30px auto 0;
+}
+
+span {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    background-color: pink;
+}
+
+.drop {
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+    width: 180px;
+
+}
+
+.drop_con {
+
+    display: none;
+
+}
+
+/* .span {
+    display: inline-block;
+} */
+
+.drop:hover .drop_con {
+    display: block;
+    background-color: rgba(51, 46, 48, 0.3);
+}
